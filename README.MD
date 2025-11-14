@@ -24,10 +24,7 @@ This project was quite interesting and different from the others. This project r
       - Execute the following to generate traces: ./batch_the_drain_trace_generator
   - Compiling harness
     - cd into src then into harness
-    - Run the following to compile: g++ -std=c++17 -I . main.cpp ../../utils/comparator.cpp ../implement
-ations/BinaryHeapInVector/BinaryHeapInVector.cpp ../implementations/BinomialQueues/BinomialQueue.cpp ../implementations/
-BinomialQueues/BQnode.cpp ../implementations/LinearBaseLine/LinearBaseLine.cpp ../implementations/Oracle/QuadraticOracle
-.cpp -o harness
+    - Run the following to compile: g++ -std=c++17 -I . main.cpp ../../utils/comparator.cpp ../implementations/BinaryHeapInVector/BinaryHeapInVector.cpp ../implementations/BinomialQueues/BinomialQueue.cpp ../implementations/BinomialQueues/BQnode.cpp ../implementations/LinearBaseLine/LinearBaseLine.cpp ../implementations/Oracle/QuadraticOracle.cpp -o harness
     - Execute the following to generate traces: ./harness
 
 - Testing & Status:
